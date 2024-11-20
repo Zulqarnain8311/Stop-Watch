@@ -1,0 +1,41 @@
+.header{
+    text-align: center;
+      margin-top: 1.5%;
+      font-size: 30px;
+      background-color: navy;
+      color: white;
+      height: 7%;  
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+overflow: visible
+};
+
+.mainhead{
+    max-width: 85%;
+  margin: auto;
+}
+.time{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap:80px;
+    margin-top: 5%;   
+}
+.box{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 8%;
+    background-color: navy;
+    color: white;
+    height: 50px;
+    border-radius: 90px;
+}
